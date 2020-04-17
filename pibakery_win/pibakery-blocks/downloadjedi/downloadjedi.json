@@ -1,0 +1,27 @@
+{
+	"name": "downloadjedi",
+	"text": "Download JEDI One: %2",
+	"script": "downloadjedi.py",
+	"args": [
+		{
+			"type": "text",
+			"default": "https://s3.amazonaws.com/download.machinechat.io/",
+			"maxLength":0
+		},
+		{
+			"type": "text",
+			"default": "mc-jedione-rp/mcjedi_armv7rp_R1.5.0.zip",
+			"maxLength": 0
+		}
+	],
+	"network": false,
+	"continue": true,
+	"type": "network",
+	"category":"network",
+	"supportedOperatingSystems": [
+		"raspbian-pibakery.img",
+		"raspbian-lite-pibakery.img"
+	],
+	"shortDescription":"Install JEDI One...",
+	"longDescription":"Install JEDI One..."
+}

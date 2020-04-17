@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>PiBakery</title>
+		<link href="open-sans/open-sans.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+	</head>
+	<body>
+		<div id="header">
+			<div id="logo">PiBakery</div>
+			<div class="headerBtn" id="flashSD">
+				<img src="img/write-to-sd.png" class="sdImage" />
+				<p>Write</p>
+			</div>
+			<div class="headerBtn" id="updateSD">
+				<img src="img/update-sd.png" class="sdImage" />
+				<p>Update</p>
+			</div>
+			<div class="headerBtn" id="loadSD">
+				<img src="img/load-sd.png" class="sdImage" />
+				<p>Load</p>
+			</div>
+
+			<div class="headerBtn" id="export">
+				<img src="img/export.png" class="sdImage" />
+				<p>Export</p>
+			</div>
+			<div class="headerBtn" id="import">
+				<img src="img/import.png" class="sdImage" />
+				<p>Import</p>
+			</div>
+
+			<!--<div class="headerBtn" id="settings">
+				<img src="img/settings.png" class="sdImage" />
+				<p>Settings</p>
+			</div>-->
+		</div>
+
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+
+		<div id="credits">
+			<p>powered by PiBakery</p>
+		</div>
+
+		<div id="blockly_editor"></div>
+
+		<xml id="toolbox" style="display: none">
+			<category name="Startup" colour="20" id="hat">
+				<block type="onfirstboot" id="onfirstboot"></block>
+				<block type="onboot"></block>
+			</category>
+		</xml>
+
+		<script src="blockly/blockly.js"></script>
+		<script src="blockly/pibakery.js"></script>
+		<script src="blockly/en.js"></script>
+		<script src="blocks.js"></script>
+
+		<script src="index.js"></script>
+	</body>
+</html>
