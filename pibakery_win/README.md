@@ -19,7 +19,7 @@ While it is recommended to install PiBakery from one of the downloads on www.PiB
 
 To install PiBakery from source, you'll need NodeJS and npm installed. Once you have them installed, clone the GitHub repository with
 </br>
-`git clone https://github.com/davidferguson/pibakery.git`
+`git clone https://github.com/MachinechatLLC/pibakery.git`
 
 Change into the newly downloaded directory with
 </br>
